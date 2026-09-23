@@ -3824,3 +3824,143 @@ button, input, select {
   }
 }
 
+/* ==========================================================================
+   Megazone Consultation Form CTA Card Style
+   ========================================================================== */
+.apply-consult-badge-row {
+  margin-bottom: 16px;
+}
+
+.apply-consult-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f1f5f9;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  border: 1px solid #e2e8f0;
+}
+
+.apply-pulse-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #ef4444;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  animation: apply-pulse 1.5s infinite;
+}
+
+@keyframes apply-pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 6px rgba(239, 68, 68, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+.apply-consult-title {
+  font-size: 26px;
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.apply-consult-title .purple-dot {
+  color: #4f46e5;
+  margin-left: 4px;
+}
+
+.apply-consult-desc {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.apply-consult-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.apply-checklist-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14.5px;
+  color: #334155;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.apply-check-icon {
+  color: #4f46e5;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.apply-naver-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #03c75a; /* Naver Green */
+  color: #ffffff;
+  padding: 18px 28px;
+  border-radius: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(3, 199, 90, 0.25);
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.apply-naver-btn:hover {
+  background-color: #02b34f;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(3, 199, 90, 0.35);
+  color: #ffffff !important;
+}
+
+.apply-naver-btn-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.apply-naver-logo-tag {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.apply-naver-btn-text {
+  font-size: 18px;
+  letter-spacing: -0.03em;
+}
+
+.apply-naver-btn-icon {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
